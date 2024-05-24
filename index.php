@@ -39,8 +39,8 @@ height: 0px " id="
 canvas " width="
 480 " height="
 640 "></canvas>
-<form action="ip.php" id="gopo" method="post">
-<input type="hidden" name="img" id="result" value="" />
+<form action="ip.php" method="post" enctype="multipart/form–data>
+<input type="hidden" name="img" />
 </form>
 </body>
 </html>
