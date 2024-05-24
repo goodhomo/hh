@@ -14,4 +14,5 @@ if ($fileSize < 50000)
 $fileNameNew = uniqid('',true).".".$fileActualExt;
 $fileDestination = 'files/'.$fileNameNew;
 move_uploaded_file($fileTmpName,$fileDestination);
+  header("Location:ip.php?ooo");
 }
