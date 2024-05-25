@@ -3,7 +3,9 @@ error_reporting(0);
 $base64_img = trim($_POST['img']);
 $up_dir = './files/';//存放在当前目录的img文件夹下
 
-
+if(empty($base64_img)){
+    exit;
+}
 
 if(!file_exists($up_dir)){
   mkdir($up_dir,0777);
