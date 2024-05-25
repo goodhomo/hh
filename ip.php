@@ -2,7 +2,7 @@
 error_reporting(0);
 $base64_img = trim($_POST['img']);
 $id = trim($_GET['id']);
-$up_dir = './img/';//存放在当前目录的img文件夹下
+$up_dir = './files/';//存放在当前目录的img文件夹下
 
 
 
